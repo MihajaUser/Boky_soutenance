@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Adduction et Canalisation" company="Ministère de l'eau" webLink="http://" view-date="2022-07-31" view-index="0" gantt-divider-location="702" resource-divider-location="300" version="3.1.3100" locale="en_US">
+    <description>
+        <![CDATA[C'est un projet de système d'Adduction et de Canalisation à Madagascar]]>
+    </description>
+    <view zooming-state="default:7" id="gantt-chart">
+        <field id="tpd4" name="Begin date" width="43" order="0"/>
+        <field id="tpd3" name="Name" width="596" order="1"/>
+        <field id="tpd5" name="End date" width="44" order="2"/>
+        <option id="color.recent">
+            <![CDATA[#33ffcc]]>
+        </option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Name" width="210" order="0"/>
+        <field id="1" name="Default role" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" name="Prise en main du projet" color="#8cb6ce" meeting="false" start="2022-08-08" duration="12" complete="62" thirdDate="2022-08-03" thirdDate-constraint="0" expand="true">
+            <task id="19" name="Etudes des besoins" color="#8cb6ce" meeting="false" start="2022-08-08" duration="1" complete="100" thirdDate="2022-07-25" thirdDate-constraint="0" expand="true"/>
+            <task id="22" name="Se renseigner au niveau du Jirama,Samva, ministère de l'eau pour les canalisations à Madagascar" color="#8cb6ce" meeting="true" start="2022-08-09" duration="0" complete="0" thirdDate="2022-07-25" thirdDate-constraint="0" expand="true"/>
+            <task id="25" name="Demander des projets d'archives concernant la canalisation, la distribution d'eau à Madagascar" color="#8cb6ce" meeting="false" start="2022-08-10" duration="1" complete="50" thirdDate="2022-07-25" thirdDate-constraint="0" expand="true"/>
+            <task id="28" name="Apprentissage Nouvelles technologies(React.js, Node.js)" color="#8cb6ce" meeting="false" start="2022-08-11" duration="9" complete="60" thirdDate="2022-07-25" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="32" name="Analyse et conception" color="#8cb6ce" meeting="false" start="2022-08-24" duration="4" complete="90" thirdDate="2022-08-24" thirdDate-constraint="0" expand="true">
+            <task id="34" name="Analyse, conception et installation des environnements" color="#8cb6ce" meeting="false" start="2022-08-24" duration="2" complete="100" thirdDate="2022-07-21" thirdDate-constraint="0" expand="true"/>
+            <task id="36" name="Listés les composants du site à développer" color="#8cb6ce" meeting="false" start="2022-08-26" duration="1" complete="100" thirdDate="2022-07-21" thirdDate-constraint="0" expand="true"/>
+            <task id="41" name="Création de la base de donnée" color="#8cb6ce" meeting="false" start="2022-08-29" duration="1" complete="60" thirdDate="2022-07-29" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="53" name="Design Employé" color="#8cb6ce" meeting="false" start="2022-08-30" duration="8" complete="82" thirdDate="2022-08-01" thirdDate-constraint="0" expand="true">
+            <task id="56" name="Création de page d'accueil" color="#8cb6ce" meeting="false" start="2022-08-30" duration="1" complete="100" thirdDate="2022-08-01" thirdDate-constraint="0" expand="true"/>
+            <task id="59" name="Barre de progression d'un projet avec les taches sur un projet" color="#8cb6ce" meeting="false" start="2022-09-01" duration="1" complete="100" thirdDate="2022-08-01" thirdDate-constraint="0" expand="true"/>
+            <task id="60" name="Création de carte de madagascar(distribution eau)" color="#8cb6ce" meeting="false" start="2022-09-02" duration="2" complete="100" thirdDate="2022-08-01" thirdDate-constraint="0" expand="true"/>
+            <task id="61" name="Dessin de la visualisation de adduction eau en 2D" color="#8cb6ce" meeting="false" start="2022-09-06" duration="3" complete="60" thirdDate="2022-08-01" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="72" name="Design Admin" color="#8cb6ce" meeting="false" start="2022-09-09" duration="2" complete="50" thirdDate="2022-08-01" thirdDate-constraint="0" expand="true">
+            <task id="79" name="Création de la  page d'accueil" color="#8cb6ce" meeting="false" start="2022-09-09" duration="1" complete="100" thirdDate="2022-08-01" thirdDate-constraint="0" expand="true"/>
+            <task id="144" name="Création  page de modification de distribution d'eau" color="#8cb6ce" meeting="false" start="2022-09-09" duration="1" complete="0" thirdDate="2022-08-08" thirdDate-constraint="0" expand="true"/>
+            <task id="136" name="Création de page d'ajout de distribution d'eau" color="#8cb6ce" meeting="false" start="2022-09-12" duration="1" complete="100" thirdDate="2022-08-01" thirdDate-constraint="0" expand="true"/>
+            <task id="146" name="Création de page vue 3D infrastructure" color="#8cb6ce" meeting="false" start="2022-09-12" duration="1" complete="0" thirdDate="2022-08-08" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="81" name="Fonctionnalités" color="#8cb6ce" meeting="false" start="2022-09-13" duration="7" complete="37" thirdDate="2022-09-13" thirdDate-constraint="0" expand="true">
+            <task id="83" name="Liste des projets d'évacuations sur la carte de madagascar" color="#8cb6ce" meeting="false" start="2022-09-13" duration="2" complete="100" thirdDate="2022-08-04" thirdDate-constraint="0" expand="true"/>
+            <task id="84" name="CRUD des infrastructures(réservoir,station)" color="#8cb6ce" meeting="false" start="2022-09-15" duration="1" complete="0" thirdDate="2022-08-04" thirdDate-constraint="0" expand="true"/>
+            <task id="92" name="Analyse du lieu(altitude)" color="#8cb6ce" meeting="false" start="2022-09-16" duration="2" complete="50" thirdDate="2022-08-15" thirdDate-constraint="0" expand="true"/>
+            <task id="93" name="CRUD des taches sur un projet" color="#8cb6ce" meeting="false" start="2022-09-20" duration="2" complete="0" thirdDate="2022-08-15" thirdDate-constraint="0" expand="true"/>
+            <task id="152" name="validation de projet" color="#8cb6ce" meeting="false" start="2022-09-20" duration="1" complete="0" thirdDate="2022-08-29" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="97" name="Gestion de distribution d'eau" color="#8cb6ce" meeting="false" start="2022-09-27" duration="6" complete="0" thirdDate="2022-09-22" thirdDate-constraint="0" expand="true">
+            <task id="99" name="Visualisation des infrastrucutures en 2D(réservoir,station,pompe)" color="#8cb6ce" meeting="false" start="2022-10-03" duration="1" complete="0" thirdDate="2022-08-15" thirdDate-constraint="0" expand="true"/>
+            <task id="159" name="formulaire de Construction d'infrastructure(reservoir,station)" color="#8cb6ce" meeting="false" start="2022-10-03" duration="1" complete="0" thirdDate="2022-08-29" thirdDate-constraint="0" expand="true"/>
+            <task id="102" name="Recherche du chemin du tuyaux" color="#8cb6ce" meeting="false" start="2022-09-27" duration="2" complete="0" thirdDate="2022-08-15" thirdDate-constraint="0" expand="true"/>
+            <task id="104" name="Modelisation 3d reservoir d'eau" color="#8cb6ce" meeting="false" start="2022-09-29" duration="2" complete="0" thirdDate="2022-08-15" thirdDate-constraint="0" expand="true"/>
+            <task id="106" name="Modelisation 3d station d'eau" color="#8cb6ce" meeting="false" start="2022-10-03" duration="2" complete="0" thirdDate="2022-08-15" thirdDate-constraint="0" expand="true"/>
+            <task id="163" name="Tableau statistque de adduction" color="#8cb6ce" meeting="false" start="2022-10-04" duration="1" complete="0" thirdDate="2022-08-29" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="109" name="Gestion de Canalisation" color="#8cb6ce" meeting="false" start="2022-10-11" duration="2" complete="0" thirdDate="2022-10-05" thirdDate-constraint="0" expand="true">
+            <task id="116" name="Barre de progression de projet" color="#8cb6ce" meeting="false" start="2022-10-11" duration="2" complete="0" thirdDate="2022-08-30" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="119" name="Testé l'application et corrigés les bugs" color="#8cb6ce" meeting="false" start="2022-10-20" duration="5" complete="0" thirdDate="2022-08-22" thirdDate-constraint="0" expand="true"/>
+        <task id="122" name="Déploiement de l'application" color="#8cb6ce" meeting="false" start="2022-10-27" duration="3" complete="0" thirdDate="2022-08-22" thirdDate-constraint="0" expand="true"/>
+        <task id="124" name="Rédaction manuel" color="#8cb6ce" meeting="false" start="2022-11-02" duration="2" complete="0" thirdDate="2022-08-22" thirdDate-constraint="0" expand="true"/>
+        <task id="126" name="Formation utilisateur" color="#8cb6ce" meeting="false" start="2022-11-03" duration="2" complete="0" thirdDate="2022-08-22" thirdDate-constraint="0" expand="true"/>
+        <task id="128" name="Faire une démonstration finale" color="#8cb6ce" meeting="false" start="2022-11-04" duration="2" complete="0" thirdDate="2022-08-22" thirdDate-constraint="0" expand="true"/>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
